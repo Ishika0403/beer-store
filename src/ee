@@ -1,0 +1,51 @@
+// import React, { useState, useRef, useEffect, useCallback } from "react";
+// import LoadData from "./LoadData";
+
+// function Loading() {
+//   // const [query, setQuery] = useState("");
+//   const [page, setPage] = useState(1);
+//   const { loading, list } = LoadData(page);
+//   const loader = useRef(null);
+
+//   // const handleChange = (e) => {
+//   //   setQuery(e.target.value);
+//   // };
+
+//   const handleObserver = useCallback((entries) => {
+//     const target = entries[0];
+//     if (target.isIntersecting) {
+//       setPage((prev) => prev + 1);
+//     }
+//     // console.log(entries ,"target")
+//   }, []);
+
+//   useEffect(() => {
+//     const option = {
+//       root: null,
+//       rootMargin: "20px",
+//       threshold: 0
+//     };
+//     const observer = new IntersectionObserver(handleObserver, option);
+//     if (loader.current) observer.observe(loader.current);
+//     console.log(observer,"obs")
+//   }, [handleObserver]);
+
+
+//   return (
+//     <div>
+      
+//       {/* <input type="text" value={query} onChange={handleChange} /> */}
+//       <div>
+//       {/* {list} */}
+//         {list.map((book, i) => (
+//           <div key={i}>{book} <br/></div>
+//         ))}
+//       </div>
+//       {loading && <h2>Loading...</h2>}
+//       {/* {error && <p>Error!</p>} */}
+//       <div ref={loader} />
+//     </div>
+//   );
+// }
+
+// export default Loading;

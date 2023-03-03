@@ -1,0 +1,45 @@
+
+.singleprd_section .btn{
+    padding: 30px 50px;
+}
+.singleprd_section button{
+    padding: 17px 40px;
+    background-color: #F4B233;
+    border: 1px solid #F4B233;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.singleprd_section .dly_tbl{
+    display: table;
+    width: 100%;
+}
+.singleprd_section .dly_tbl .tbl_cell{
+    vertical-align: middle;
+    display: table-cell;
+    width: 30%;
+}
+.singleprd_section .dly_tbl .tbl_cell:last-child{
+    width: 70%;
+}
+.singleprd_section .dly_tbl .tbl_cell img{
+    display: block;
+    max-width: 250px;
+    width: 100%;
+}
+h2,h4,p{
+    margin: 0px;
+}
+.singleprd_section .dly_tbl .tbl_cell h2{
+    padding-bottom: 25px;
+    font-size: 34px;
+}
+.singleprd_section .dly_tbl .tbl_cell h4{
+    display: inline-block;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+.singleprd_section .dly_tbl .tbl_cell p{
+    font-size: 18px;
+}

@@ -1,0 +1,83 @@
+[
+    {
+        "id":1,
+        "title":"Discover",
+        "data":[{
+            "display": "What's New",
+            "id": 438,
+            "meta_description": "Custom",
+            "name": "is_new"
+        },{
+            "display": "On sale",
+            "id": 346,
+            "meta_description": "Custom",
+            "name": "on_sale"
+        }],
+        "display":"Discover"
+    },
+    {
+        "id":2,
+        "title":"Beer Type",
+        "data":[{
+            "display": "Ale",
+            "id": 581,
+            "meta_description": "Custom",
+            "name": "is_new"
+        },{
+            "display": "Flavoured Malt",
+            "id": 333,
+            "meta_description": "Custom",
+            "name": "on_sale"
+        }],
+        "display":"Beer Type"
+    },
+    {
+        "id":3,
+        "title":"Light",
+        "data":[{
+            "display": "BUD LIGHT1",
+            "id": 323,
+            "meta_description": "Custom",
+            "name": "is_new"
+        },{
+            "display": "On sale2",
+            "id": 348,
+            "meta_description": "Custom",
+            "name": "on_sale"
+        }],
+        "display":"Light"
+    },
+    {
+        "id":4,
+        "title":"Mixed Case",
+        "data":[{
+            "display": "What's New22",
+            "id": 340,
+            "meta_description": "Custom",
+            "name": "is_new"
+        },{
+            "display": "On sale2",
+            "id": 583,
+            "meta_description": "Custom",
+            "name": "on_sale"
+        }],
+        "display":"Mixed Case"
+    },
+    {
+        "id":5,
+        "title":"Non Beer",
+        "data":[{
+            "display": "What's New22",
+            "id": 353,
+            "meta_description": "Custom",
+            "name": "is_new"
+        },{
+            "display": "On sale2",
+            "id": 333,
+            "meta_description": "Custom",
+            "name": "on_sale"
+        }],
+        "display":"Non Beer"
+    }
+    
+]

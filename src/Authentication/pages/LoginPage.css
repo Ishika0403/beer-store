@@ -1,0 +1,59 @@
+.clr{
+    background-color: black;
+    color: white;
+}
+.login_section{
+    height: 100vh;
+    position: relative;
+}
+.login_section .pos_abs{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+.login_section .head{
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+.login_section h2{
+    padding: 20px 0px 40px;
+}
+.login_section input{
+    padding: 10px 10px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin: 10px 0px 5px;
+    outline: none;
+}
+.buttons{
+    width: 100%;
+    max-width: 400px;
+    padding-top: 10px;
+}
+.s_btn,.c_btn{
+    display: inline-block;
+    vertical-align: middle;
+}
+button{
+    padding: 10px 30px;
+    border: 2px solid #F4B233;
+    border-radius: 5px;
+}
+.s_btn_btn{
+    background-color: #F4B233;
+
+}
+.s_btn{
+    padding-left: 30px;
+}
+.c_btn{
+    float: right;
+    padding-right: 30px;
+}
+.logout_btn{
+    float: right;
+}

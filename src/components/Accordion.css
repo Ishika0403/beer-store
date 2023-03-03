@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+}
+.inner_container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0px 40px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.bgc_clr{
+    background-color: black;
+}
+.header_section{
+    display: table;
+    width: 100%;
+    padding: 30px 0px;
+}
+.header_section .tbl_cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+.header_section .tbl_cell img{
+    display: block;
+    width: 100%;
+    max-width: 125px;
+    margin: auto;
+}
+.header_section .tbl_cell:last-child{
+    width: 80%;
+}
+.header_section .tbl_cell input{
+    padding: 28px 30px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+/*  */
+.content_bgc{
+    background-color: #F4F4F4;
+}
+.content_section{
+    display: table;
+    width: 100%;
+    padding: 20px 0px;
+}
+.content_section .left_col_content{
+    float: left;
+    width: 20%;
+}
+.content_section .left_col_content li{
+    padding: 20px 30px;
+
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.content_section .left_col_content .acc_list{
+    font-size: 18px;
+    font-weight: 700;
+}
+.content_section .left_col_content .acc_sign{
+    padding-left: 20px;
+}
+/*  */
+.content_section .right_col_content{
+    float: right;
+    width: 80%;
+    padding-left: 20px;
+}
+
+.content_section .right_col_content .dly_tbl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.content_section .right_col_content .dly_tbl .same_col_contain{
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+}
+.content_section .right_col_content .dly_tbl .same_col_contain a{
+    text-decoration: none;
+    color: black;
+}
+.content_section .right_col_content .dly_tbl .same_col_contain img{
+    display: block;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.content_section .right_col_content .dly_tbl .same_col_contain h2{
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 1px solid #D6D6D6;
+}
+/*  */
